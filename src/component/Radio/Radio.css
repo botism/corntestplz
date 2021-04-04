@@ -1,0 +1,22 @@
+#Radio {
+    height: 100%;
+    width: 100%;
+}
+
+#Radio > div {
+    height: 100%;
+}
+
+#widget2{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #ff8b00;
+    box-sizing: border-box;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#widget2:hover {
+    opacity: 1;
+}

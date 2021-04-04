@@ -1,0 +1,14 @@
+{
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "https_only": true,
+
+  "redirects": {
+    "/old": {
+      "url": "/old.html"
+    }
+  }
+
+}

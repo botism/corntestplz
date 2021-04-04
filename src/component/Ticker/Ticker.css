@@ -1,0 +1,562 @@
+#Ticker {
+    height: 100%;
+    width: 100%;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+
+.rowExchange {
+    padding-left: 4px;
+    height: 22px;
+}
+
+.rowCoin {
+    padding-left: 4px;
+    height: 18px;
+    width: 18px;
+}
+
+.rowSize {
+    padding-left: 4px;
+}
+
+.rowPrice {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.rowTime {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.class1 {
+    color: #5a595c;
+    font-size: 10px;
+}
+
+.class2 {
+    color: #5a595c;
+    font-size: 13px;
+}
+
+.class3 {
+    color: #363636;
+    font-size: 16px;
+}
+
+.class35 {
+    color: #0f0f0f;
+    font-size: 18px;
+}
+
+.class4 {
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.6);*/
+
+}
+
+.traderow {
+    /*transition: 0.1s;*/
+    /*cursor: crosshair;*/
+}
+
+.btcAmtt {
+    font-size: 12px;
+
+    /*transition: 0.1s;*/
+}
+
+.rowSize {
+
+    /*transition: 0.3s;*/
+}
+
+
+.btcAmtt {
+    opacity: 0.7;
+}
+
+.btcAmtt:hover {
+    opacity: 1;
+    /*transition: 0.3s;*/
+}
+
+.rowPrice:hover {
+    opacity: 1;
+    /*transition: 0.3s;*/
+}
+
+.hovershow {
+    display: none;
+}
+
+.hoverhide {
+    display: block;
+}
+
+.traderow:hover .hovershow {
+    display: block;
+}
+
+.traderow:hover .hoverhide {
+    display: none;
+}
+
+
+
+.traderow:hover .rowSize {
+    font-size: 22px;
+}
+
+
+.rowPrice {
+    font-size: 14px;
+    /*transition: 0.1s;*/
+}
+
+.traderow:hover .btcAmtt {
+    font-size: 14px;
+}
+
+.traderow:hover .rowPrice {
+    font-size: 18px;
+}
+
+/*.traderow:hover {*/
+/*    font-size: 26px;*/
+/*}*/
+
+.class5 {
+    color: #e8e8e8;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+}
+
+.class6 {
+    color: #f4f559;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+}
+
+.traderow {
+    display: flex;
+    flex-direction: row;
+
+    vertical-align: middle;
+
+    align-items: center;
+
+
+}
+
+#bitmexExpand {
+    /*overflow: scroll;*/
+    /*height: 100%;*/
+
+    scrollbar-width: none;
+
+    transition: 0.3s;
+
+    margin: 4px;
+
+}
+
+.settingItemm:hover > #bitmexExpand {
+    /*overflow: visible;*/
+    /*height: 100px;*/
+}
+
+#exchangeTitle {
+    font-size: 16px;
+
+    /*flex-wrap: wrap;*/
+
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+
+
+.settingItemm:hover > #exchangeTitle {
+
+    /*font-size: 18px;*/
+
+}
+
+.settingItemm {
+    margin: 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    border: 2px ridge #ff8b00;
+    color: #ffc60b;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #141521;
+    background-image: url("../../navy.png");
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.3s;
+
+    opacity: 0.7
+}
+
+.onnn {
+    /*opacity: 0.81;*/
+}
+
+.offf {
+    border: 2px solid orangered;
+    opacity: 0.36;
+}
+
+.settingItemm:hover {
+    /*opacity: 1;*/
+    /*background: rgba(255, 139, 1, 0.9);*/
+    /*color: black;*/
+    /*font-weight: bold;*/
+    border: 2px solid #ffc60b;
+    box-sizing: border-box;
+
+    opacity: 1;
+
+}
+
+.settingItemm.offf:hover {
+    /*opacity: 1;*/
+    /*background: rgba(255, 139, 1, 0.9);*/
+    /*color: black;*/
+    /*font-weight: bold;*/
+    border: 2px solid #ffc60b;
+    box-sizing: border-box;
+
+    opacity: 0.7;
+}
+
+.table1 .traderow td {
+    /*width: 100%;*/
+
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+    /*border-left: 1px solid black;*/
+    text-align: left;
+    /*font-size: 14px;*/
+    font-family: 'Rubik', sans-serif;
+
+    /*border: 0;*/
+
+
+}
+
+.table1 {
+
+
+    /*border: 5px red;*/
+    background-color: rgba(0, 0, 0, 0);
+    /*border-collapse: */
+    border-spacing: 0;
+    font-size: 14px;
+
+    width: 100%;
+
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+    transition: 1s;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.react-toggle {
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+.react-toggle {
+    touch-action: pan-x;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.react-toggle--checked .react-toggle-track {
+    background-color: #19AB27;
+}
+
+          .react-toggle-track {
+              width: 44px;
+              height: 18px;
+              padding: 0;
+              border-radius: 30px;
+              background-color: #4D4D4D;
+              -webkit-transition: all 0.2s ease;
+              -moz-transition: all 0.2s ease;
+              transition: all 0.2s ease;
+          }
+
+.react-toggle--checked .react-toggle-thumb {
+    left: 27px;
+    border-color: #19AB27;
+}
+          .react-toggle-thumb {
+              transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+              position: absolute;
+              top: 1px;
+              left: 1px;
+              width: 16px;
+              height: 16px;
+              border: 1px solid #4D4D4D;
+              border-radius: 50%;
+              background-color: #FAFAFA;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              -webkit-transition: all 0.25s ease;
+              -moz-transition: all 0.25s ease;
+              transition: all 0.25s ease;
+          }
+
+
+.react-toggle-screenreader-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+.bitmexOn.react-toggle--checked .react-toggle-track {
+    background-color: #ff8b00;
+}
+
+#symbolTitle {
+    font-size: 16px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    transition: 0.3s;
+
+    opacity: 0.7;
+}
+
+#symbolTitle:hover {
+    opacity: 1;
+}
+
+#symbolBottom {
+
+    transition: 0.5s;
+
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    vertical-align: middle;
+
+    align-items: center;
+
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+
+    margin: 0px;
+}
+
+#tickerLayout {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    vertical-align: middle;
+
+    align-items: center;
+
+    transition: 0.3s;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+
+    margin: 0px;
+}
+
+/*#symbolTitle:hover > #symbolBottom {*/
+/*    overflow: visible;*/
+/*    height: 55px;*/
+/*    opacity: 0.8;*/
+/*    margin: 5px;*/
+/*}*/
+
+/*#symbolTitle:hover > #tickerLayout {*/
+/*    overflow: visible;*/
+/*    height: 55px;*/
+/*    opacity: 0.8;*/
+/*    margin: 5px;*/
+/*}*/
+
+
+#symbolTitle .rc-input-number-handler-up {
+    /*border-bottom: 2px solid #d9d9d940;*/
+    border: none;
+    margin-bottom: 3px;
+}
+
+#symbolTitle .rc-input-number-handler-wrap {
+    border: none;
+
+    /*border-left: 2px solid #d9d9d940;*/
+    margin-left: 3px;
+}
+
+
+
+#bitmexExpand::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: rgba(72, 245, 72, 0);
+    border-radius: 0px;
+    opacity: 0;
+}
+
+#bitmexExpand::-webkit-scrollbar
+{
+    width: 10px;
+    height: 4px;
+    background-color: rgba(130, 56, 245, 0);
+    opacity: 0;
+}
+
+#bitmexExpand::-webkit-scrollbar-thumb:hover {
+    border: 2px ridge rgb(219, 185, 77);
+}
+
+#bitmexExpand::-webkit-scrollbar-thumb
+{
+    z-index: 10000;
+    background-color: rgba(255, 139, 0, 0.36);
+    border: 1px solid #ff8b00;
+    border-radius: 3px;
+
+    background-image: -webkit-linear-gradient(270deg,
+    rgba(0, 0, 0, 0) 25%,
+    transparent 3%,
+    transparent 50%,
+    rgba(0, 0, 0, .2) 90%,
+    rgba(0, 0, 0, .2) 75%,
+    transparent 75%,
+    transparent)
+
+}

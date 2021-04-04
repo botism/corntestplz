@@ -1,0 +1,73 @@
+#bitmexBottomIcon {
+    /*opacity: 0.2;*/
+    border-radius: 15px;
+
+    background: black;
+    transition: 0.3s;
+}
+#bitmexBottomIconFront {
+    /*opacity: 0.8;*/
+    border-radius: 15px;
+
+    background: black;
+    transition: 0.3s;
+}
+
+#bitmexBottomIcon:hover {
+    /*opacity: 1;*/
+
+}
+
+
+.hoverrActive {
+    opacity: 0.81;
+}
+
+.hoverrActive:hover {
+        opacity: 0.95;
+}
+
+#exchangeDetails:hover {
+    border: 1px solid white;
+}
+
+#exchangeDetails {
+    position: absolute;
+    top: -70px;
+    /*left: -30px;*/
+    /*right: 425px;*/
+    /*display: none;*/
+    opacity: 0;
+    transition: 0.2s;
+
+    margin-left: -50px;
+
+    z-index: 10000000;
+
+    border: 2px solid #ffb645;
+
+    background: rgba(58, 54, 45, 0.92);
+
+    padding: 3px;
+
+    border-radius: 10px;
+
+    /*pointer-events: none;*/
+
+    /*margin-top: -50px;*/
+
+
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.25);
+}
+
+/*#exchangeDiv:hover #exchangeDetails {*/
+/*    opacity: 1;*/
+/*    !*border: 1px solid white;*!*/
+/*    margin-top: 30px;*/
+/*}*/
+
+.showEx {
+    opacity: 1;
+    /*border: 1px solid white;*/
+    margin-top: 10px;
+}

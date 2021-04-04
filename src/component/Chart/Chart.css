@@ -1,0 +1,27 @@
+.settingButton {
+
+    padding: 2px;
+    /*padding-left: 5px;*/
+    border: 2px solid #ff8b00;
+    margin: 5px;
+
+    color: #ffc60b;
+    font-weight: bold;
+    opacity: 0.7;
+    /*pointer-events: none;*/
+
+    border-radius: 5px;
+
+    background-color: #141521;
+    background-image: url("../../navy.png");
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.settingButton:hover {
+    opacity: 0.9;
+}
